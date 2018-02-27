@@ -3,16 +3,22 @@
 A repo to reproduce two meteor issues
 
 I have installed
-- Meteor 1.6.1
+- Meteor 1.6.1 (but project is 1.4.4.5)
 - Android Studio 2.3.3 (also tested with Android Studio 3.0.1)
 - Android SDK Tools 25.2.5
+- Running this in Mac OS X High Sierra
 
-To reproduce:
+To reproduce the issue just do: `meteor run android-device`
 
 
-NOTE: in my original project this worked before update Android Studio and Meteor
+NOTE: in my original project this configuration worked before update Android Studio and Meteor installation. I cannot update my entire original project to Meteor 1.6.1
 
-## Issue 1: cannot run the app
+## Issue 1: Cannot run the app
+
+This issue also occurs with the example project created with meteor:
+```
+meteor create testapp --release 1.4.4.5
+```
 
 When I launch the app with `meteor run android-device` or simply `meteor run` I get this error in the console
 
