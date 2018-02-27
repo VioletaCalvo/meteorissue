@@ -22,7 +22,7 @@ meteor create testapp --release 1.4.4.5
 
 When I launch the app with `meteor run android-device` or simply `meteor run` I get this error in the console
 
-```bash
+```
 (19:21:32)[meteortest]$ meteor run android-device
 [[[[[ ~/meteor-projects/meteortest ]]]]]      
 
@@ -50,7 +50,7 @@ I tested with:
 - cordova-plugin-facebook4@1.9.1
 
 Here I past the output in the console after `meteor run android-device`
-```shell
+```
 => Errors executing Cordova commands:
 
    While running Cordova app for platform Android with options --device:
