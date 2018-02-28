@@ -15,6 +15,11 @@ NOTE: in my original project this configuration worked before update Android Stu
 
 ## Issue 1: Cannot run the app
 
+**UPDATE**: This has been fixed by updating to the latest version (1.8.4) of the meteor package (https://github.com/meteor/meteor/issues/9700#issuecomment-368944649):
+```
+meteor update meteor
+```
+----
 This issue also occurs with the example project created with meteor:
 ```
 meteor create testapp --release 1.4.4.5
